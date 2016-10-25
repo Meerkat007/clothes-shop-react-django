@@ -1,0 +1,30 @@
+{
+  "name": "clothes-shop-react-django",
+  "version": "1.0.0",
+  "description": "This is a personal project that helps me get more familiar with ReactJS and Django Rest Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.dev.config.js",
+    "watch": "./node_modules/.bin/webpack --config webpack.dev.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meerkat007/clothes-shop-react-django.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meerkat007/clothes-shop-react-django/issues"
+  },
+  "homepage": "https://github.com/Meerkat007/clothes-shop-react-django#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "react": "^15.3.2",
+    "webpack": "^1.13.2",
+    "webpack-bundle-tracker": "0.0.93",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
