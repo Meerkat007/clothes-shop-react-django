@@ -1,3 +1,6 @@
+#production files
+prod.py
+
 # Logs
 logs
 *.log
